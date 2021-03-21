@@ -125,7 +125,7 @@ http.createServer(function(req, res) {
 
 
 				res.writeHead(200, {
-					'Content-Type': 'text/plain',
+					'Content-Type': 'application/json',
 					'Access-Control-Allow-Origin': '*',
 					'Access-Control-Allow-Methods': 'GET, PUT, POST, DELETE, OPTIONS',
 					'Access-Control-Allow-Headers': 'Content-Type, Authorization, Content-Length, X-Requested-With'
@@ -212,7 +212,7 @@ http.createServer(function(req, res) {
 
 
 					res.writeHead(200, {
-						'Content-Type': 'text/plain',
+						'Content-Type': 'application/json',
 						'Access-Control-Allow-Origin': '*',
 						'Access-Control-Allow-Methods': 'GET, PUT, POST, DELETE, OPTIONS',
 						'Access-Control-Allow-Headers': 'Content-Type, Authorization, Content-Length, X-Requested-With'
@@ -270,7 +270,7 @@ http.createServer(function(req, res) {
 
 
 				res.writeHead(200, {
-					'Content-Type': 'text/plain',
+					'Content-Type': 'application/json',
 					'Access-Control-Allow-Origin': '*',
 					'Access-Control-Allow-Methods': 'GET, PUT, POST, DELETE, OPTIONS',
 					'Access-Control-Allow-Headers': 'Content-Type, Authorization, Content-Length, X-Requested-With'
@@ -332,7 +332,7 @@ http.createServer(function(req, res) {
 
 
 				res.writeHead(200, {
-					'Content-Type': 'text/plain',
+					'Content-Type': 'application/json',
 					'Access-Control-Allow-Origin': '*',
 					'Access-Control-Allow-Methods': 'GET, PUT, POST, DELETE, OPTIONS',
 					'Access-Control-Allow-Headers': 'Content-Type, Authorization, Content-Length, X-Requested-With'
